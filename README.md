@@ -5,7 +5,7 @@ These files are components of Data Project 1. See dataproject1 in "Packages" sec
 
 Data Project 1: Option 2, ETL Data Processor
 
-This ETL processor ingests a locally-mounted csv file on global COVID vaccination data, transforms it, converts transformed file into SQL database table, and writes it to a MySQL database system.
+This ETL processor ingests a locally-mounted csv file on global COVID vaccination data, transforms it, converts the transformed file into SQL database table, and writes it to a MySQL database system.
 
 MySQL database credentials are required to use this tool. These credentials are personal to you, the user, and are typically used to login to your MySQL database via a user interface, like phpMyAdmin or MySQLWorkbench. When running this processor locally (in docker -it mode!), you will be prompted to input your credentials, including, your database name, host name, username, and password. The processor will throw an error if you input incorrect credentials. 
 
